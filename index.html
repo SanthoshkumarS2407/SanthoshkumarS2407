@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Santhoshkumar S | Software Engineer & Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Santhoshkumar S - Software Engineer & B.Tech IT student specializing in React, Node.js, MongoDB, Python, Java, and IoT Solutions." />
+  <meta name="keywords" content="Santhoshkumar S, Software Engineer, Full Stack Developer, React, Node.js, MongoDB, IoT, Portfolio" />
+  <meta name="author" content="Santhoshkumar S" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Santhoshkumar S | Software Engineer Portfolio" />
+  <meta property="og:description" content="Explore projects, skills, certifications, and background of Santhoshkumar S." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+  <!-- Interactive Canvas Background -->
+  <canvas id="bg-canvas"></canvas>
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Custom Cursor Glow -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-outline" id="cursor-outline"></div>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <div class="header-container">
+      <a href="#hero" class="brand-logo" aria-label="Santhoshkumar S Home">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">Santhosh</span>
+        <span class="logo-dot">.</span>
+        <span class="logo-role">dev</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link"><span class="nav-num">01.</span> About</a></li>
+          <li><a href="#skills" class="nav-link"><span class="nav-num">02.</span> Skills</a></li>
+          <li><a href="#projects" class="nav-link"><span class="nav-num">03.</span> Projects</a></li>
+          <li><a href="#education" class="nav-link"><span class="nav-num">04.</span> Education</a></li>
+          <li><a href="#certifications" class="nav-link"><span class="nav-num">05.</span> Certs</a></li>
+          <li><a href="#terminal" class="nav-link"><span class="nav-num">06.</span> Terminal</a></li>
+          <li><a href="#contact" class="nav-link"><span class="nav-num">07.</span> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Toggle Light/Dark Theme">
+          <i class="fa-solid fa-moon theme-icon-dark"></i>
+          <i class="fa-solid fa-sun theme-icon-light"></i>
+        </button>
+
+        <!-- Resume Download Button -->
+        <a href="resume.pdf" target="_blank" download="Santhoshkumar_S_Resume.pdf" class="btn btn-outline btn-sm resume-btn">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-toggle" class="mobile-toggle-btn" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge animate-fade-in">
+            <span class="pulsing-status"></span>
+            <span>Available for Software Engineering Roles & Internships</span>
+          </div>
+
+          <h1 class="hero-title animate-slide-up">
+            Hi, I'm <span class="gradient-text">Santhoshkumar S</span>
+          </h1>
+
+          <div class="typewriter-container animate-slide-up delay-1">
+            <span class="type-prefix">I am a </span>
+            <span id="typewriter-text" class="type-dynamic"></span>
+            <span class="type-cursor">|</span>
+          </div>
+
+          <p class="hero-bio animate-slide-up delay-2">
+            Aspiring Software Engineer & B.Tech IT student at VSB Engineering College. 
+            Passionate about building scalable full-stack web platforms, crafting robust backend architectures, 
+            and engineering smart IoT safety systems with seamless user experiences.
+          </p>
+
+          <div class="hero-cta-group animate-slide-up delay-3">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-laptop-code"></i>
+              <span>Explore My Work</span>
+            </a>
+            <a href="resume.pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>View Resume</span>
+            </a>
+            <a href="#contact" class="btn btn-glass">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <div class="hero-social-links animate-slide-up delay-4">
+            <a href="https://github.com/SanthoshkumarS2407" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+              <span class="social-tooltip">GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/santhoshkumar-s-137b44377" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span class="social-tooltip">LinkedIn</span>
+            </a>
+            <a href="mailto:writetokumarsanthosh@gmail.com" class="social-icon" aria-label="Email Santhoshkumar">
+              <i class="fa-solid fa-envelope"></i>
+              <span class="social-tooltip">Email</span>
+            </a>
+            <a href="tel:+919487528706" class="social-icon" aria-label="Call Santhoshkumar">
+              <i class="fa-solid fa-phone"></i>
+              <span class="social-tooltip">+91 9487528706</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual animate-fade-in delay-2">
+          <div class="code-card-wrapper">
+            <div class="code-card-glass">
+              <div class="code-header">
+                <div class="window-buttons">
+                  <span class="btn-circle red"></span>
+                  <span class="btn-circle yellow"></span>
+                  <span class="btn-circle green"></span>
+                </div>
+                <div class="code-title"><i class="fa-brands fa-js"></i> developerProfile.ts</div>
+                <div class="badge-tech">TypeScript</div>
+              </div>
+              <pre class="code-content"><code><span class="kw">const</span> <span class="var">engineer</span> = {
+  <span class="prop">name</span>: <span class="str">'Santhoshkumar S'</span>,
+  <span class="prop">degree</span>: <span class="str">'B.Tech Information Technology'</span>,
+  <span class="prop">college</span>: <span class="str">'VSB Engineering College, Karur'</span>,
+  <span class="prop">cgpa</span>: <span class="num">8.00</span>,
+  <span class="prop">coreStack</span>: [
+    <span class="str">'React.js'</span>, <span class="str">'Node.js'</span>, <span class="str">'MongoDB'</span>,
+    <span class="str">'Python'</span>, <span class="str">'Java'</span>, <span class="str">'SQL'</span>, <span class="str">'IoT'</span>
+  ],
+  <span class="prop">passion</span>: <span class="str">'Designing scalable software & smart IoT systems'</span>,
+  <span class="prop">status</span>: <span class="str">'Open to internships & engineering opportunities'</span>,
+  <span class="prop">solveProblem</span>: () =&gt; {
+    <span class="kw">return</span> <span class="str">'Transforming ideas into impactful reality 🚀'</span>;
+  }
+};</code></pre>
+              <div class="code-footer">
+                <span class="status-indicator-green"></span>
+                <span>Active • Ready to collaborate</span>
+              </div>
+            </div>
+
+            <!-- Floating Floating Tech Badges -->
+            <div class="floating-badge badge-react">
+              <i class="fa-brands fa-react"></i> React.js
+            </div>
+            <div class="floating-badge badge-node">
+              <i class="fa-brands fa-node-js"></i> Node.js
+            </div>
+            <div class="floating-badge badge-python">
+              <i class="fa-brands fa-python"></i> Python
+            </div>
+            <div class="floating-badge badge-iot">
+              <i class="fa-solid fa-microchip"></i> Smart IoT
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-down-indicator">
+        <a href="#about" aria-label="Scroll Down">
+          <div class="mouse-wheel">
+            <span class="wheel-dot"></span>
+          </div>
+          <span class="scroll-text">Scroll Down</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Get To Know Me</span>
+          <h2 class="section-title"><span class="section-num">01.</span> About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card card-glass">
+            <h3 class="about-greeting">
+              Driven by curiosity, fueled by <span class="gradient-text">clean code</span> & innovation.
+            </h3>
+            <p>
+              I am an aspiring <strong>Software Engineer</strong> pursuing my <strong>B.Tech in Information Technology</strong> at <em>VSB Engineering College, Karur</em> (Class of 2028) with a strong academic foundation (CGPA 8.00).
+            </p>
+            <p>
+              My expertise spans across <strong>Full-Stack Web Development</strong> (MERN stack, RESTful APIs, JWT Auth, Database Design) and <strong>Smart IoT Architectures</strong> (Microcontrollers, Sensor arrays, GSM/GPS telematics). I love tackling complex real-world challenges—whether it is architecting an e-learning platform to empower rural students or engineering lifesaving IoT safety helmets.
+            </p>
+            <p>
+              I bring rigorous analytical thinking, effective communication, and adaptability to every project, continuously expanding my repertoire in modern software patterns, Cloud platforms, and algorithmic problem solving.
+            </p>
+
+            <div class="quick-info-grid">
+              <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <span class="info-label">Location</span>
+                  <span class="info-val">Dharapuram, Tamil Nadu, India</span>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <span class="info-label">Email</span>
+                  <span class="info-val"><a href="mailto:writetokumarsanthosh@gmail.com">writetokumarsanthosh@gmail.com</a></span>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <span class="info-label">Education</span>
+                  <span class="info-val">B.Tech IT (2024 - 2028)</span>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <span class="info-label">Phone</span>
+                  <span class="info-val">+91 9487528706</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-highlights-card">
+            <div class="stat-card card-glass">
+              <div class="stat-icon-wrap"><i class="fa-solid fa-code"></i></div>
+              <div class="stat-data">
+                <span class="stat-number">3+</span>
+                <span class="stat-title">Major Featured Projects</span>
+                <p class="stat-desc">Full-stack web apps, IoT safety systems & CRM tools</p>
+              </div>
+            </div>
+
+            <div class="stat-card card-glass">
+              <div class="stat-icon-wrap"><i class="fa-solid fa-certificate"></i></div>
+              <div class="stat-data">
+                <span class="stat-number">3+</span>
+                <span class="stat-title">Industry Certifications</span>
+                <p class="stat-desc">Infosys Springboard Java, Cisco IoT, Salesforce Agentforce</p>
+              </div>
+            </div>
+
+            <div class="stat-card card-glass">
+              <div class="stat-icon-wrap"><i class="fa-solid fa-award"></i></div>
+              <div class="stat-data">
+                <span class="stat-number">8.00</span>
+                <span class="stat-title">College CGPA</span>
+                <p class="stat-desc">VSB Engineering College, Karur (B.Tech IT)</p>
+              </div>
+            </div>
+
+            <div class="interest-box card-glass">
+              <h4><i class="fa-solid fa-compass"></i> Key Focus Areas</h4>
+              <div class="tags-cloud">
+                <span class="tag">Software Development</span>
+                <span class="tag">Full-Stack Development</span>
+                <span class="tag">Data Structures & Algorithms</span>
+                <span class="tag">REST APIs & Backend</span>
+                <span class="tag">IoT Systems</span>
+                <span class="tag">UI/UX Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section section-alt">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Proficiency</span>
+          <h2 class="section-title"><span class="section-num">02.</span> Skills & Technologies</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-category-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category-card card-glass">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-code"></i></div>
+              <h3 class="cat-title">Programming Languages</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-python"></i> Python</span>
+                  <span class="skill-pct">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-java"></i> Java</span>
+                  <span class="skill-pct">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-database"></i> SQL</span>
+                  <span class="skill-pct">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 82%"></div></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+                  <span class="skill-pct">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Technologies -->
+          <div class="skill-category-card card-glass">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-layer-group"></i></div>
+              <h3 class="cat-title">Web Technologies</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-react"></i> React.js</span>
+                  <span class="skill-pct">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-node-js"></i> Node.js & Express</span>
+                  <span class="skill-pct">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+                  <span class="skill-pct">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 84%"></div></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-html5"></i> HTML5 & CSS3</span>
+                  <span class="skill-pct">Expert</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Developer Tools & Systems -->
+          <div class="skill-category-card card-glass">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-terminal"></i></div>
+              <h3 class="cat-title">Developer Tools & Systems</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</div>
+              <div class="skill-chip"><i class="fa-brands fa-github"></i> GitHub</div>
+              <div class="skill-chip"><i class="fa-solid fa-code"></i> VS Code</div>
+              <div class="skill-chip"><i class="fa-solid fa-server"></i> RESTful APIs</div>
+              <div class="skill-chip"><i class="fa-solid fa-shield-halved"></i> JWT Auth</div>
+              <div class="skill-chip"><i class="fa-solid fa-cloud"></i> Cloudinary API</div>
+              <div class="skill-chip"><i class="fa-solid fa-microchip"></i> Arduino IDE</div>
+            </div>
+          </div>
+
+          <!-- UI/UX & Design -->
+          <div class="skill-category-card card-glass">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <h3 class="cat-title">UI/UX & Design</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip"><i class="fa-brands fa-figma"></i> Figma</div>
+              <div class="skill-chip"><i class="fa-solid fa-vector-square"></i> Wireframing</div>
+              <div class="skill-chip"><i class="fa-solid fa-mobile-screen"></i> Responsive Web Design</div>
+              <div class="skill-chip"><i class="fa-solid fa-palette"></i> User Interface Design</div>
+              <div class="skill-chip"><i class="fa-solid fa-eye"></i> User Experience (UX)</div>
+            </div>
+          </div>
+
+          <!-- Professional & Soft Skills -->
+          <div class="skill-category-card card-glass full-width">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-brain"></i></div>
+              <h3 class="cat-title">Professional & Core Competencies</h3>
+            </div>
+            <div class="competencies-grid">
+              <div class="competency-box">
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <h4>Problem Solving</h4>
+                <p>Structured analytical thinking to break down complex issues into modular, clean solutions.</p>
+              </div>
+              <div class="competency-box">
+                <i class="fa-solid fa-chart-line"></i>
+                <h4>Analytical Thinking</h4>
+                <p>Data-driven decision making and performance optimization across software architectures.</p>
+              </div>
+              <div class="competency-box">
+                <i class="fa-solid fa-comments"></i>
+                <h4>Effective Communication</h4>
+                <p>Clear documentation, cross-functional collaboration, and technical presentation skills.</p>
+              </div>
+              <div class="competency-box">
+                <i class="fa-solid fa-arrows-spin"></i>
+                <h4>Adaptability & Agility</h4>
+                <p>Quick learner eager to embrace emerging frameworks, engineering paradigms, and tools.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Featured Engineering Work</span>
+          <h2 class="section-title"><span class="section-num">03.</span> Projects</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack Web</button>
+          <button class="filter-btn" data-filter="iot">IoT & Hardware</button>
+          <button class="filter-btn" data-filter="react">React & Node.js</button>
+        </div>
+
+        <div class="projects-showcase-grid">
+          
+          <!-- Project 1: Smart Helmet IoT Safety System -->
+          <article class="project-card card-glass" data-category="iot">
+            <div class="project-banner iot-gradient">
+              <div class="project-badge"><i class="fa-solid fa-shield-virus"></i> Hardware & IoT Safety</div>
+              <div class="project-icon-visual">
+                <i class="fa-solid fa-helmet-safety"></i>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-tech-highlight">Arduino • MQ-3 • GSM/GPS</span>
+              </div>
+              <h3 class="project-name">Smart Helmet IoT Safety System</h3>
+              <p class="project-summary">
+                An intelligent IoT-driven safety system engineered to mitigate road accident risks, detect rider impairment, and trigger automated emergency dispatching in real time.
+              </p>
+
+              <div class="project-feature-list">
+                <div class="feature-bullet">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span><strong>Ignition Interlock:</strong> Restricts vehicle start until helmet wear is verified via IR sensors.</span>
+                </div>
+                <div class="feature-bullet">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span><strong>Alcohol Detection:</strong> Integrated MQ-3 gas sensor module detects breath alcohol to prevent drunk driving.</span>
+                </div>
+                <div class="feature-bullet">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span><strong>Instant Crash Alerts:</strong> Vibration sensor + GSM/GPS module triggers automated SMS emergency alerts with exact coordinates upon impact.</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag-pill">Arduino Uno</span>
+                <span class="tag-pill">IR Sensors</span>
+                <span class="tag-pill">MQ-3 Gas Sensor</span>
+                <span class="tag-pill">GSM Module</span>
+                <span class="tag-pill">GPS Module</span>
+                <span class="tag-pill">C++ / Embedded</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-sm btn-primary project-modal-trigger" data-project="smart-helmet">
+                  <i class="fa-solid fa-circle-info"></i> View System Architecture
+                </button>
+                <a href="https://github.com/SanthoshkumarS2407" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Digital Village Learning Platform -->
+          <article class="project-card card-glass" data-category="fullstack react">
+            <div class="project-banner elearn-gradient">
+              <div class="project-badge"><i class="fa-solid fa-graduation-cap"></i> EdTech & Full-Stack</div>
+              <div class="project-icon-visual">
+                <i class="fa-solid fa-book-open-reader"></i>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-tech-highlight">React • Node.js • MongoDB • JWT • Cloudinary</span>
+              </div>
+              <h3 class="project-name">Digital Village Learning Platform for Rural Schools</h3>
+              <p class="project-summary">
+                A high-performance full-stack e-learning portal designed to expand digital education access across rural schools with low-bandwidth optimization and distraction-free UI.
+              </p>
+
+              <div class="project-feature-list">
+                <div class="feature-bullet">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span><strong>Role-Based Security:</strong> Enforced JWT authentication paired with granular student and instructor permissions.</span>
+                </div>
+                <div class="feature-bullet">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span><strong>Interactive Learning:</strong> Video lesson streaming, course collateral repositories, interactive quizzes, and assignment submissions.</span>
+                </div>
+                <div class="feature-bullet">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span><strong>Low-Bandwidth Optimization:</strong> Leveraged Cloudinary media APIs for dynamic compression and fast loading on low-spec devices.</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag-pill">React.js</span>
+                <span class="tag-pill">Node.js</span>
+                <span class="tag-pill">MongoDB</span>
+                <span class="tag-pill">JSON Web Tokens</span>
+                <span class="tag-pill">Cloudinary API</span>
+                <span class="tag-pill">RESTful API</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-sm btn-primary project-modal-trigger" data-project="digital-village">
+                  <i class="fa-solid fa-circle-info"></i> View System Architecture
+                </button>
+                <a href="https://github.com/SanthoshkumarS2407" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Public CRM Management Application -->
+          <article class="project-card card-glass" data-category="fullstack react">
+            <div class="project-banner crm-gradient">
+              <div class="project-badge"><i class="fa-solid fa-chart-pie"></i> Enterprise & Analytics</div>
+              <div class="project-icon-visual">
+                <i class="fa-solid fa-users-gear"></i>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-tech-highlight">React • Node.js • MongoDB • Analytics</span>
+              </div>
+              <h3 class="project-name">Public CRM Management Application</h3>
+              <p class="project-summary">
+                A full-stack customer relationship management web application built to streamline lead conversion pipelines, client engagement tracking, and business analytics.
+              </p>
+
+              <div class="project-feature-list">
+                <div class="feature-bullet">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span><strong>Pipeline Management:</strong> RESTful CRUD operations to accelerate daily client contact records and lead stage workflows.</span>
+                </div>
+                <div class="feature-bullet">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span><strong>Real-Time Analytics:</strong> Interactive dashboards monitoring engagement KPIs, revenue forecasts, and sales metrics.</span>
+                </div>
+                <div class="feature-bullet">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span><strong>High-Availability Backend:</strong> Structured MongoDB schema design with indexing and session-level multi-role security.</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag-pill">React.js</span>
+                <span class="tag-pill">Node.js</span>
+                <span class="tag-pill">MongoDB</span>
+                <span class="tag-pill">HTML5/CSS3</span>
+                <span class="tag-pill">Data Visualization</span>
+                <span class="tag-pill">Role-Based Access</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-sm btn-primary project-modal-trigger" data-project="public-crm">
+                  <i class="fa-solid fa-circle-info"></i> View System Architecture
+                </button>
+                <a href="https://github.com/SanthoshkumarS2407" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & TIMELINE SECTION -->
+    <section id="education" class="section section-alt">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Journey</span>
+          <h2 class="section-title"><span class="section-num">04.</span> Education & Milestones</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Item 1: B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-card card-glass">
+              <div class="timeline-badge-row">
+                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2024 – 2028</span>
+                <span class="timeline-status in-progress">Current Degree</span>
+              </div>
+              <h3 class="timeline-degree">Bachelor of Technology (B.Tech) in Information Technology</h3>
+              <h4 class="timeline-institution"><i class="fa-solid fa-building-columns"></i> VSB Engineering College, Karur</h4>
+              <div class="timeline-score-badge">
+                <span class="score-label">Academic Score:</span>
+                <span class="score-value">CGPA: 8.00 / 10.0</span>
+              </div>
+              <p class="timeline-desc">
+                Core coursework includes Data Structures & Algorithms, Object-Oriented Programming (Java/Python), Database Management Systems, Computer Networks, Web Technologies, and IoT Architectures. Active participant in technical hackathons and coding societies.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: HSC -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+            <div class="timeline-card card-glass">
+              <div class="timeline-badge-row">
+                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2023 – 2024</span>
+                <span class="timeline-status completed">Completed</span>
+              </div>
+              <h3 class="timeline-degree">Higher Secondary Certificate (HSC)</h3>
+              <h4 class="timeline-institution"><i class="fa-solid fa-school-flag"></i> Bharathi Vidhyalaya Hr Sec School, Mulanur</h4>
+              <div class="timeline-score-badge">
+                <span class="score-label">Tamil Nadu State Board:</span>
+                <span class="score-value">84.3%</span>
+              </div>
+              <p class="timeline-desc">
+                Focus on Mathematics, Physics, Chemistry, and Computer Science with distinguished academic performance.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: SSLC -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-book"></i></div>
+            <div class="timeline-card card-glass">
+              <div class="timeline-badge-row">
+                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2021 – 2022</span>
+                <span class="timeline-status completed">Completed</span>
+              </div>
+              <h3 class="timeline-degree">Secondary School Leaving Certificate (SSLC)</h3>
+              <h4 class="timeline-institution"><i class="fa-solid fa-school-flag"></i> Bharathi Vidhyalaya Hr Sec School, Mulanur</h4>
+              <div class="timeline-score-badge">
+                <span class="score-label">Tamil Nadu State Board:</span>
+                <span class="score-value">87.4%</span>
+              </div>
+              <p class="timeline-desc">
+                Built a solid foundation in sciences and mathematics with distinction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Continuous Learning & Credentials</span>
+          <h2 class="section-title"><span class="section-num">05.</span> Certifications</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert 1: Infosys Springboard -->
+          <div class="cert-card card-glass">
+            <div class="cert-top">
+              <div class="cert-logo-box infosys">
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <div class="cert-status-badge"><i class="fa-solid fa-circle-check"></i> Verified</div>
+            </div>
+            <h3 class="cert-name">Programming Using Java</h3>
+            <h4 class="cert-issuer">Infosys Springboard</h4>
+            <p class="cert-desc">
+              Comprehensive credential covering OOP principles, memory management, collections framework, exception handling, and building robust Java applications.
+            </p>
+            <div class="cert-tags">
+              <span class="tag-pill">Java OOP</span>
+              <span class="tag-pill">Data Structures</span>
+              <span class="tag-pill">Infosys</span>
+            </div>
+          </div>
+
+          <!-- Cert 2: Cisco IoT -->
+          <div class="cert-card card-glass">
+            <div class="cert-top">
+              <div class="cert-logo-box cisco">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <div class="cert-status-badge"><i class="fa-solid fa-circle-check"></i> Verified</div>
+            </div>
+            <h3 class="cert-name">Introduction to Internet of Things</h3>
+            <h4 class="cert-issuer">Cisco Networking Academy</h4>
+            <p class="cert-desc">
+              In-depth training on connected smart devices, sensor interfacing, telemetry data pipelines, IoT security protocols, and cloud computing integrations.
+            </p>
+            <div class="cert-tags">
+              <span class="tag-pill">IoT Protocols</span>
+              <span class="tag-pill">Sensors & Telemetry</span>
+              <span class="tag-pill">Cisco</span>
+            </div>
+          </div>
+
+          <!-- Cert 3: Salesforce Agentforce -->
+          <div class="cert-card card-glass">
+            <div class="cert-top">
+              <div class="cert-logo-box salesforce">
+                <i class="fa-brands fa-salesforce"></i>
+              </div>
+              <div class="cert-status-badge"><i class="fa-solid fa-circle-check"></i> Verified</div>
+            </div>
+            <h3 class="cert-name">Becoming an Agentforce Champion</h3>
+            <h4 class="cert-issuer">Salesforce</h4>
+            <p class="cert-desc">
+              Specialized credential focused on autonomous AI agents, enterprise workflow automation, customer experience augmentation, and agentic AI integration patterns.
+            </p>
+            <div class="cert-tags">
+              <span class="tag-pill">Agentic AI</span>
+              <span class="tag-pill">Automation</span>
+              <span class="tag-pill">Salesforce</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE TERMINAL SECTION -->
+    <section id="terminal" class="section section-alt">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Interactive Developer Sandbox</span>
+          <h2 class="section-title"><span class="section-num">06.</span> Interactive CLI Terminal</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="terminal-wrapper card-glass">
+          <div class="terminal-topbar">
+            <div class="terminal-dots">
+              <span class="dot-term red"></span>
+              <span class="dot-term yellow"></span>
+              <span class="dot-term green"></span>
+            </div>
+            <div class="terminal-title">
+              <i class="fa-solid fa-terminal"></i> santhosh@portfolio: ~ (bash)
+            </div>
+            <div class="terminal-actions">
+              <button id="clear-term-btn" class="term-action-btn" title="Clear Terminal"><i class="fa-solid fa-trash-can"></i> Clear</button>
+            </div>
+          </div>
+
+          <div class="terminal-body" id="terminal-body">
+            <div class="term-welcome">
+              <p class="term-cyan">🚀 Welcome to Santhoshkumar's Interactive Terminal v1.0.0</p>
+              <p class="term-dim">Type <span class="term-highlight">'help'</span> to see available commands or click the quick command buttons below.</p>
+            </div>
+            <div id="terminal-output"></div>
+            <div class="terminal-input-line">
+              <span class="term-prompt">santhosh@portfolio:~$</span>
+              <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" placeholder="type 'help' or 'skills'..." aria-label="Terminal command input" />
+            </div>
+          </div>
+
+          <!-- Quick Command Shortcuts -->
+          <div class="terminal-shortcuts">
+            <span class="shortcut-label">Quick run:</span>
+            <button class="quick-cmd" data-cmd="whoami">whoami</button>
+            <button class="quick-cmd" data-cmd="skills">skills</button>
+            <button class="quick-cmd" data-cmd="projects">projects</button>
+            <button class="quick-cmd" data-cmd="education">education</button>
+            <button class="quick-cmd" data-cmd="certs">certs</button>
+            <button class="quick-cmd" data-cmd="cat resume">cat resume</button>
+            <button class="quick-cmd" data-cmd="sudo hire">sudo hire</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Let's Connect</span>
+          <h2 class="section-title"><span class="section-num">07.</span> Get In Touch</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact Cards -->
+          <div class="contact-info-panel">
+            <div class="contact-card card-glass">
+              <h3 class="contact-card-title">Let's build something exceptional together!</h3>
+              <p class="contact-card-desc">
+                Whether you have an internship opportunity, a project to collaborate on, or just want to discuss software engineering & IoT, my inbox is always open!
+              </p>
+
+              <div class="contact-channels">
+                <a href="mailto:writetokumarsanthosh@gmail.com" class="channel-item">
+                  <div class="channel-icon mail"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="channel-text">
+                    <span class="channel-type">Email</span>
+                    <span class="channel-val">writetokumarsanthosh@gmail.com</span>
+                  </div>
+                  <button class="copy-btn" data-copy="writetokumarsanthosh@gmail.com" title="Copy email"><i class="fa-regular fa-copy"></i></button>
+                </a>
+
+                <a href="tel:+919487528706" class="channel-item">
+                  <div class="channel-icon phone"><i class="fa-solid fa-phone"></i></div>
+                  <div class="channel-text">
+                    <span class="channel-type">Phone</span>
+                    <span class="channel-val">+91 9487528706</span>
+                  </div>
+                  <button class="copy-btn" data-copy="+919487528706" title="Copy phone"><i class="fa-regular fa-copy"></i></button>
+                </a>
+
+                <a href="https://linkedin.com/in/santhoshkumar-s-137b44377" target="_blank" rel="noopener noreferrer" class="channel-item">
+                  <div class="channel-icon linkedin"><i class="fa-brands fa-linkedin-in"></i></div>
+                  <div class="channel-text">
+                    <span class="channel-type">LinkedIn</span>
+                    <span class="channel-val">linkedin.com/in/santhoshkumar-s-137b44377</span>
+                  </div>
+                  <i class="fa-solid fa-arrow-up-right-from-square external-link-icon"></i>
+                </a>
+
+                <a href="https://github.com/SanthoshkumarS2407" target="_blank" rel="noopener noreferrer" class="channel-item">
+                  <div class="channel-icon github"><i class="fa-brands fa-github"></i></div>
+                  <div class="channel-text">
+                    <span class="channel-type">GitHub</span>
+                    <span class="channel-val">github.com/SanthoshkumarS2407</span>
+                  </div>
+                  <i class="fa-solid fa-arrow-up-right-from-square external-link-icon"></i>
+                </a>
+
+                <div class="channel-item">
+                  <div class="channel-icon location"><i class="fa-solid fa-location-dot"></i></div>
+                  <div class="channel-text">
+                    <span class="channel-type">Location</span>
+                    <span class="channel-val">Dharapuram, Tamil Nadu, India</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Message Form -->
+          <div class="contact-form-panel card-glass">
+            <h3 class="form-title"><i class="fa-solid fa-paper-plane"></i> Send a Direct Message</h3>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Full Name <span class="req">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-user"></i>
+                  <input type="text" id="name" name="name" placeholder="e.g. John Doe" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email Address <span class="req">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-envelope"></i>
+                  <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject <span class="req">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-tag"></i>
+                  <input type="text" id="subject" name="subject" placeholder="e.g. Internship Opportunity / Collaboration" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message <span class="req">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-comment-dots textarea-icon"></i>
+                  <textarea id="message" name="message" rows="5" placeholder="Hi Santhosh, I came across your portfolio and..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+            </form>
+
+            <div id="form-feedback" class="form-feedback hidden"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-text">Santhoshkumar S</span>
+          <span class="logo-bracket">/&gt;</span>
+          <p class="footer-tagline">Crafting scalable software & intelligent connected experiences.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="resume.pdf" target="_blank">Resume PDF</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/SanthoshkumarS2407" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/santhoshkumar-s-137b44377" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:writetokumarsanthosh@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="tel:+919487528706" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Santhoshkumar S. Designed & Built with passion & precision.</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          <span>Back to Top</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT ARCHITECTURE MODAL -->
+  <div id="project-modal" class="modal-backdrop hidden">
+    <div class="modal-dialog card-glass">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close Modal">&times;</button>
+      <div class="modal-body" id="modal-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast-container hidden">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
