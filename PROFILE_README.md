@@ -2,7 +2,7 @@
 
 # Hi, I'm Santhoshkumar S 👋
 
-### Full-Stack Developer | Software Development Engineer (SDE) Aspirant | IoT Systems Builder
+### Software Engineer
 
 <a href="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Software+Development+Engineer+(SDE)+Aspirant;Full+Stack+%26+Backend+Systems+Developer;SIH+Top+50+Finalist+%7C+Odoo+Hackathon+Finalist;Smart+IoT+%26+Embedded+Hardware+Builder;Actively+Seeking+SDE+%26+SWE+Opportunities">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Software+Development+Engineer+(SDE)+Aspirant;Full+Stack+%26+Backend+Systems+Developer;SIH+Top+50+Finalist+%7C+Odoo+Hackathon+Finalist;Smart+IoT+%26+Embedded+Hardware+Builder;Actively+Seeking+SDE+%26+SWE+Opportunities" alt="Typing Animation" />
