@@ -4,8 +4,8 @@
 
 ### Full-Stack Developer | Software Development Engineer (SDE) Aspirant | IoT Systems Builder
 
-<a href="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Software+Development+Engineer+(SDE)+Aspirant;Full+Stack+%26+Backend+Systems+Developer;Smart+IoT+%26+Embedded+Hardware+Builder;MERN+Stack+%26+Python+Engineer;Actively+Seeking+SDE+%26+SWE+Opportunities">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Software+Development+Engineer+(SDE)+Aspirant;Full+Stack+%26+Backend+Systems+Developer;Smart+IoT+%26+Embedded+Hardware+Builder;MERN+Stack+%26+Python+Engineer;Actively+Seeking+SDE+%26+SWE+Opportunities" alt="Typing Animation" />
+<a href="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Software+Development+Engineer+(SDE)+Aspirant;Full+Stack+%26+Backend+Systems+Developer;SIH+Top+50+Finalist+%7C+Odoo+Hackathon+Finalist;Smart+IoT+%26+Embedded+Hardware+Builder;Actively+Seeking+SDE+%26+SWE+Opportunities">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Software+Development+Engineer+(SDE)+Aspirant;Full+Stack+%26+Backend+Systems+Developer;SIH+Top+50+Finalist+%7C+Odoo+Hackathon+Finalist;Smart+IoT+%26+Embedded+Hardware+Builder;Actively+Seeking+SDE+%26+SWE+Opportunities" alt="Typing Animation" />
 </a>
 
 <p align="center">
@@ -35,6 +35,14 @@ I specialize in building end-to-end web applications using the **MERN Stack (Mon
 - 🧠 **Core Competencies:** Data Structures & Algorithms, Object-Oriented Programming (OOP), RESTful API Engineering, Relational & NoSQL Database Design, Microcontroller Telematics
 - 📚 **Currently Expanding:** Distributed System Design, Microservices, and Cloud-Native Technologies
 - 📍 **Location:** Tamil Nadu, India
+
+---
+
+## 🏆 Achievements & Milestones
+
+- 🏆 **Odoo × NMIT Bangalore Hackathon 2026** — *National Finalist (Grand Finale at NMIT Bengaluru, Oct 10–11)*
+- 🇮🇳 **India Innovates 2026** — *National Finalist*
+- 🌟 **Smart India Hackathon (SIH) 2025 & 2026** — *Top 50 National Finalist*
 
 ---
 
