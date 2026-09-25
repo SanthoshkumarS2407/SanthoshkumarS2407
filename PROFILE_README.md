@@ -46,10 +46,27 @@ I specialize in building end-to-end web applications using the **MERN Stack (Mon
 
 ---
 
-
 ## 💻 Featured Projects & Engineering Solutions
 
 *Selected projects highlighting full-stack engineering, IoT telematics, and scalable software design.*
+
+### 🎓 [Digital Village Learning Platform for Rural Schools](https://github.com/SanthoshkumarS2407)
+**Low-Bandwidth Full-Stack EdTech Portal for Accessible Rural Education**
+
+[![Full Stack](https://img.shields.io/badge/Category-Full--Stack_Web-6366f1?style=for-the-badge&logo=react&logoColor=white)](https://github.com/SanthoshkumarS2407)
+[![MERN Stack](https://img.shields.io/badge/Stack-React_•_Node.js_•_MongoDB_•_JWT-00f0ff?style=for-the-badge&logo=mongodb&logoColor=black)](https://github.com/SanthoshkumarS2407)
+
+A full-stack learning management ecosystem engineered to bridge digital education gaps for rural students with low-bandwidth optimization and intuitive interfaces.
+
+* 🔐 **Granular Role-Based Security:** Engineered secure user authentication and authorization using JSON Web Tokens (JWT) and Bcrypt encryption for Students and Instructors.
+* 📚 **Interactive Learning Workflow:** Dynamic modules supporting streaming video lessons, course collateral downloads, interactive assessment quizzes, and assignment submission tracking.
+* ⚡ **Optimized Cloud Asset Pipeline:** Integrated Cloudinary Media APIs to dynamically compress and serve media assets with minimum latency on low-spec client devices.
+* 📱 **Responsive & Accessible UX:** Distraction-free, responsive interface engineered for mobile and low-end desktop browser compatibility.
+
+**Tech Stack:** React.js · Node.js · Express.js · MongoDB · JWT Auth · Cloudinary API · RESTful APIs  
+🔗 [Source Code & Documentation](https://github.com/SanthoshkumarS2407)
+
+---
 
 ### 🛡️ [Smart Helmet IoT Safety System](https://github.com/SanthoshkumarS2407)
 **Intelligent Microcontroller Safety Telematics & Accident Prevention Engine**
@@ -68,23 +85,6 @@ An automated IoT-driven rider safety and distress dispatch system designed to en
 
 ---
 
-### 🎓 [Digital Village Learning Platform for Rural Schools](https://github.com/SanthoshkumarS2407)
-**Low-Bandwidth Full-Stack EdTech Portal for Accessible Rural Education**
-
-[![Full Stack](https://img.shields.io/badge/Category-Full--Stack_Web-6366f1?style=for-the-badge&logo=react&logoColor=white)](https://github.com/SanthoshkumarS2407)
-[![MERN Stack](https://img.shields.io/badge/Stack-React_•_Node.js_•_MongoDB_•_JWT-00f0ff?style=for-the-badge&logo=mongodb&logoColor=black)](https://github.com/SanthoshkumarS2407)
-
-A full-stack learning management ecosystem engineered to bridge digital education gaps for rural students with low-bandwidth optimization and intuitive interfaces.
-
-* 🔐 **Granular Role-Based Security:** Engineered secure user authentication and authorization using JSON Web Tokens (JWT) and Bcrypt encryption for Students and Instructors.
-* 📚 **Interactive Learning Workflow:** Dynamic modules supporting streaming video lessons, course collateral downloads, interactive assessment quizzes, and assignment submission tracking.
-* ⚡ **Optimized Cloud Asset Pipeline:** Integrated Cloudinary Media APIs to dynamically compress and serve media assets with minimum latency on low-spec client devices.
-
-**Tech Stack:** React.js · Node.js · Express.js · MongoDB · JWT Auth · Cloudinary API · RESTful APIs  
-🔗 [Source Code & Documentation](https://github.com/SanthoshkumarS2407)
-
----
-
 ### 📊 [Public CRM Management Application](https://github.com/SanthoshkumarS2407)
 **Enterprise Lead Conversion Pipeline & Real-Time Business Analytics**
 
@@ -99,21 +99,6 @@ A full-stack Customer Relationship Management portal engineered to organize clie
 
 **Tech Stack:** React.js · Node.js · Express.js · MongoDB · Chart.js / Data Viz · RESTful APIs  
 🔗 [Source Code & Documentation](https://github.com/SanthoshkumarS2407)
-
----
-
-### ⚡ [Interactive Developer Portfolio & CLI Terminal](https://github.com/SanthoshkumarS2407/Portfolio)
-**Modern Responsive Portfolio with Particle Constellation & Interactive Sandbox**
-
-[![Web Experience](https://img.shields.io/badge/Category-Developer_Portfolio-38BDF8?style=for-the-badge&logo=javascript&logoColor=black)](https://github.com/SanthoshkumarS2407/Portfolio)
-[![HTML5 / CSS3 / JS](https://img.shields.io/badge/Stack-Vanilla_JS_•_Canvas_API_•_CSS3-yellow?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/SanthoshkumarS2407/Portfolio)
-
-* 🌌 **Interactive Constellation Canvas:** Custom HTML5 Canvas mathematical particle simulation reacting to mouse velocity and proximity.
-* 💻 **In-Browser Terminal Emulator:** Built interactive CLI terminal supporting `whoami`, `skills`, `projects`, `education`, `certs`, `cat resume`, and `sudo hire`.
-* 🎨 **Obsidian Glassmorphism System:** Fluid responsive typography, dark/light theme switching, and interactive architectural modal dialogs.
-
-**Tech Stack:** HTML5 · CSS3 (Custom Properties & Glassmorphism) · Modern JavaScript (ES6+) · HTML5 Canvas  
-🔗 [Source Repository](https://github.com/SanthoshkumarS2407/Portfolio)
 
 ---
 
