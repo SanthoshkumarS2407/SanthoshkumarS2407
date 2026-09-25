@@ -114,11 +114,11 @@ A full-stack Customer Relationship Management portal engineered to organize clie
 
 <div align="center">
   <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=SanthoshkumarS2407&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Santhoshkumar's GitHub Stats" height="175" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SanthoshkumarS2407&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="175" />
+    <img src="https://github-stats-extended.vercel.app/api?username=SanthoshkumarS2407&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Santhoshkumar's GitHub Stats" height="175" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SanthoshkumarS2407&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="175" />
   </p>
   <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SanthoshkumarS2407&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com/?user=SanthoshkumarS2407&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   </p>
 </div>
 
